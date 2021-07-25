@@ -26,6 +26,7 @@ a {
 
 header {
     background: url(imagenes/encabezado.jpg);
+    background-size: cover;
     height: 100vh;
 }
 
@@ -38,7 +39,7 @@ header ul li {
 }
 
 header ul li a {
-    color: black;
+    color: #fff;
 }
 
 .titular {
@@ -59,4 +60,13 @@ h1 {
     background: #000;
     color: #C2E71F;
     padding: 20px 40px
+}
+
+.contenedor-tarjetas {
+    display: flex;
+}
+
+.tarjeta {
+    text-align: center;
+    box-shadow: -1px 0px 5px #0000001f;
 }
