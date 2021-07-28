@@ -51,7 +51,7 @@ header ul li a {
 
 .titular {
     text-align: center;
-    margin-top: 20vh;
+    margin-top: 10vh;
     color: #fff;
 }
 
@@ -60,8 +60,9 @@ h1 {
     font-style: normal;
     width: 80%;
     margin: auto;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
+
 
 .titular a {
     background: #000;
@@ -72,9 +73,73 @@ h1 {
 
 .contenedor-tarjetas {
     display: flex;
+    justify-content: center;
 }
 
 .tarjeta {
     text-align: center;
     box-shadow: -1px 0px 5px #0000001f;
+    width: 28%;
+    margin-top: -90px;
+    background: #fff;
+    padding: 20px 0px;
+    border-radius: 20px;
+}
+
+#segunda-tarjeta {
+    margin: 0 60px;
+    margin-top: -90px;
+}
+
+.tarjeta h3 {
+    font-style: italic;
+}
+
+.tarjeta p {
+    font-size: 22px;
+}
+
+.tarjeta a {
+    color: #000;
+    text-decoration: underline;
+    font-size: 14px;
+}
+
+#classes {
+    background: #F6F6F6;
+    margin-top: -275px;
+    padding-top: 260px;
+}
+
+table {
+    width: 100%;
+    text-align: center;
+}
+
+.blanco, th {
+    background: #fff;
+}
+
+th {
+    padding: 20px 0;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.gris {
+    background: : #E8E8E8;
+}
+
+.negrita {
+    font-weight: bold;
+}
+
+ .horario {
+     font-style: italic;
+ }
+
+h2 {
+    text-align: center;
+    font-size: 60px;
+    font-style: italic;
 }
