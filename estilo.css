@@ -2,7 +2,6 @@ body {
     margin:0;
     padding: 0;
     font-family: 'Zen Loop', cursive;
-
 }
 
 .contenedor {
@@ -32,12 +31,12 @@ header {
 }
 
 img {
-    padding-top: 50px;
+    padding-top: 20px;
 }
 
 header ul {
     display: flex;
-    padding-top: 20px;
+    padding-top: 10px;
 }
 
 header ul li {
@@ -56,19 +55,21 @@ header ul li a {
 }
 
 h1 {
-    font-size: 120px;
+    font-size: 110px;
     font-style: normal;
-    width: 80%;
+    width: 100%;
     margin: auto;
-    margin-bottom: 30px;
+    margin-bottom: 80px;
+    margin-top: 40px;
 }
 
 
 .titular a {
+    font-family: 'Roboto Mono', monospace;
     background: #000;
     color: #C2E71F;
-    font-size: 25px;
-    padding: 20px 40px
+    font-size: 20px;
+    padding: 15px 35px
 }
 
 .contenedor-tarjetas {
@@ -100,15 +101,17 @@ h1 {
 }
 
 .tarjeta a {
+    font-family: 'Roboto Mono', monospace;
     color: #000;
     text-decoration: underline;
     font-size: 14px;
 }
 
 #classes {
-    background: #F6F6F6;
-    margin-top: -275px;
-    padding-top: 260px;
+  font-family: 'Roboto Mono', monospace;
+  background: #F6F6F6;
+  margin-top: -275px;
+  padding-top: 260px;
 }
 
 table {
@@ -121,7 +124,8 @@ table {
 }
 
 th {
-    padding: 20px 0;
+    padding: 10px 0;
+    color: green;
     font-weight: bolder;
     font-style: italic;
 }
@@ -140,6 +144,6 @@ th {
 
 h2 {
     text-align: center;
-    font-size: 60px;
+    font-size: 50px;
     font-style: italic;
 }
