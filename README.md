@@ -1,3 +1,3 @@
-Página web - "Ciencias del Entrenamiento y del Deporte"
+Página web - "Club JGym"
 
-::::: Propiedad de María Angela Zadorozne :::::
+::::: Propiedad de María Zadorozne y Nicolas Jaworski :::::
