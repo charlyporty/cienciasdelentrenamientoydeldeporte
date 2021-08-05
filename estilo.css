@@ -31,12 +31,16 @@ li {
 
 a {
     text-decoration: none;
+    position: absolute;
+    bottom: 10px;
+    left:50%;
+
 }
 
 header {
   /*  background: url(imagenes/encabezado.jpg); */
     background-size: cover;
-    height: 50vh;
+    height: 100vh;
 }
 
 header ul {
