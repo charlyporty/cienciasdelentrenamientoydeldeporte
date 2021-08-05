@@ -16,34 +16,6 @@ body {
     justify-content: space-between;
 }
 
-li {
-    list-style: none;
-}
-
-a {
-    text-decoration: none;
-}
-
-header {
-  /*  background: url(imagenes/encabezado.jpg); */
-    background-size: cover;
-    height: 100vh;
-}
-
-header ul {
-    display: flex;
-    padding-top: 10px;
-}
-
-header ul li {
-    margin: 0 20px;
-    font-size: 40px;
-}
-
-header ul li a {
-    color: #0000001f;
-}
-
 .maria {
 
 }
