@@ -1,58 +1,60 @@
 body {
-    margin:0;
+    margin: 0;
     padding: 0;
-    font-family: 'Zen Loop', cursive;
 }
 
-.contenedor {
-    width: 90%;
-    max-height: 1280px;
+#pantalla-dividida {
+    display: flex;
+}
+
+#ced {
     margin: auto;
-    position: relative;
-    display: inline-block;
-    text-align: center;
-}
-
-.menu {
     display: flex;
-    align-items: flex-flex-start;
-    justify-content: space-between;
+    justify-content: flex-start;
+    height: 30%;
+    width: 40%;
+    margin-left: 50px;
+    margin-top: 50px;
+    border-radius: 40px;
 }
 
-header {
-  /*  background: url(imagenes/encabezado.jpg); */
+.izquierda {
+    background: url(imagenes/portalmaria1.jpg);
     background-size: cover;
+    background-position: center;
+    width: 50%;
     height: 100vh;
 }
 
-li {
-    list-style: none;
+.derecha {
+    background: url(imagenes/portalnico1.jpg);
+    background-size: contain;
+    background-position: center;
+    width: 50%;
+    height: 100vh;
 }
 
-a {
+#boton-izquierda {
     text-decoration: none;
-    position: absolute;
-    bottom: 10px;
-    left:50%;
-
+    padding: 20px;
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #fff;
+    border-radius: 30px;
+    font-weight: bold;
+    display: inline-block;
+    margin-left: 180px;
+    margin-top: 40%;
 }
 
-header {
-  /*  background: url(imagenes/encabezado.jpg); */
-    background-size: cover;
-    height: 100vh;
-}
-
-header ul {
-    display: flex;
-    padding-top: 10px;
-}
-
-header ul li {
-    margin: 0 20px;
-    font-size: 40px;
-}
-
-header ul li a {
-    color: #0000001f;
-}
+/* #boton-derecha {
+    text-decoration: none;
+    padding: 20px;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 30px;
+    font-weight: bold;
+    display: inline-block;
+    margin-left: 180px;
+    margin-top: 50%;
+} */
