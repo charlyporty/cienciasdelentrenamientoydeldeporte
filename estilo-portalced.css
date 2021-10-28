@@ -298,7 +298,7 @@ Class Definitions
     left: 0;
     z-index: 5;
     opacity: 0;
-    transition: all 800ms;
+    transition: all 600ms;
 }
 
 
@@ -366,7 +366,7 @@ Class Definitions
     left: 0;
     z-index: 5;
     opacity: 0;
-    
+
 }
 .container-all2:target {
     background: rgba(0, 0, 0, 0.8);
