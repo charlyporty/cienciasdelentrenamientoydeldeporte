@@ -333,7 +333,7 @@ Class Definitions
 
 .img {
     width: 50%;
-    background-image: url(imagenes/team-2.jpg);
+    background-image: url(imagenes/team-1.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -352,7 +352,6 @@ Class Definitions
     margin-top: 20px;
     font-size: 16px;
 }
-
 
 .container-all2 {
     width: 100%;
@@ -380,6 +379,52 @@ Class Definitions
     visibility: visible;
 }
 
+.img2 {
+    width: 50%;
+    background-image: url(imagenes/team-2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.img_futsal {
+    width: 50%;
+    background-image: url(imagenes/kamikaze1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.container-text2 {
+    width: 50%;
+    padding: 50px;
+    overflow-y: auto;
+}
+
+.container-text2 h1 {
+    font-size: 30px;
+}
+
+.container-text2 p {
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.boton_volver {
+    text-decoration: none;
+    padding: 10px;
+
+    font-size: 15px;
+    color: #ffffff;
+    background-color: #1883ba;
+    border: 2px solid #0016b0;
+	line-height: 10px;
+	position: absolute;
+	right: 36px;
+	top: 450px;
+	width: 56px;
+	font-weight: bold;
+	border-radius: 28px;
+	box-shadow: 1px 1px 3px #000;
+}
+
 ul {
     list-style: none;
 }
@@ -394,7 +439,6 @@ li {
 }
 
 a {
-
     color:#ec1b20;
     text-decoration: none;
     background-color: transparent;
