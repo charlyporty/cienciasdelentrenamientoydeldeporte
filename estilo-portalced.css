@@ -310,7 +310,7 @@ Class Definitions
 }
 
 .container-all:target .popup {
-    top: 13%;
+    top: 11%;
     left: 50%;
     transform: rotate(0deg) translate(-50%, -50%);
     visibility: visible;
@@ -373,7 +373,7 @@ Class Definitions
     opacity: 1;
 }
 .container-all2:target .popup {
-    top: 13%;
+    top: 11%;
     left: 50%;
     transform: rotate(0deg) translate(-50%, -50%);
     visibility: visible;
@@ -519,7 +519,9 @@ td {
 }
 
  .horario {
-   color: blue;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  color: blue;
   font-style: italic;
   font-size: 15px;
  }
@@ -537,7 +539,7 @@ td {
      }
      header
      {
-         padding-top: 40px;
+         padding-top: 60px;
      }
  }
  .footer-ditributed
@@ -547,8 +549,8 @@ td {
      width: 100%;
      text-align: left;
      font: bold 16px sans-serif;
-     padding: 50px 50px 60px 50px;
-     margin-top: 380px;
+     padding: 20px 10px 20px 40px;
+     margin-top: 80px;
  }
  .footer-ditributed .footer-left,
  .footer-ditributed .footer-center,
@@ -681,16 +683,16 @@ td {
  }
  @media(max-width:880px)
  {
-     .footer-ditributed .footer-left,
- .footer-ditributed .footer-center,
- .footer-ditributed .footer-right
+  .footer-ditributed .footer-left,
+  .footer-ditributed .footer-center,
+  .footer-ditributed .footer-right
  {
      display: block;
      width: 100%;
      margin-bottom: 40px;
      text-align: center;
  }
- .footer-ditributed .footer-center i
+  .footer-ditributed .footer-center i
  {
      margin-left: 0;
  }
